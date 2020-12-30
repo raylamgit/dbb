@@ -141,7 +141,7 @@
               MOVE RESPONSE                   TO EPLOAN1O
            END-IF
            .
-
+           MOVE a
 
            IF CLOSE-FILE = 'Y'
             EXEC CICS ENDBR FILE('EPSMORTF') END-EXEC

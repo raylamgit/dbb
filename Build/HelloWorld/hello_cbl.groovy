@@ -1,10 +1,10 @@
 import com.ibm.dbb.build.*
 
 // Change the following variables to match your system
-hlq        = "USER.BUILD"
-sourceDir  = "/u/user/build"
+hlq        = "RLAM.DBB10"
+sourceDir  = "/u/rlam/sandbox"
 compilerDS = "IGY.V6R1M0.SIGYCOMP"
-
+                                                    S
 println("Creating ${hlq}.COBOL. . .")
 CreatePDS createPDSCmd = new CreatePDS();
 createPDSCmd.setDataset("${hlq}.COBOL");
